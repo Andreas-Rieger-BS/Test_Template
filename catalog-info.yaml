@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Test_Template
+  description: This is a full Repo created out of Backstage
+  annotations:
+    github.com/project-slug: Andreas-Rieger-BS/Test_Template
+    jenkins.io/job-full-name: Test_Template/main
+    sonarqube.org/project-key: Test_Template
+    dependencytrack/project-id: Replace_this_value_with_the_actual_key_Example_95cef845-d638-4d48-be5d-7272f3127b01
+spec:
+  type: service
+  owner: group:default/admins
+  lifecycle: production
+
