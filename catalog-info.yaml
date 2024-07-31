@@ -7,7 +7,7 @@ metadata:
     github.com/project-slug: Andreas-Rieger-BS/Test_Template
     jenkins.io/job-full-name: Test_Template/main
     sonarqube.org/project-key: Test_Template
-    dependencytrack/project-id: Replace_this_value_with_the_actual_key_Example_95cef845-d638-4d48-be5d-7272f3127b01
+    dependencytrack/project-id: da51773e-d734-4f52-ad37-534fd6237f83
 spec:
   type: service
   owner: group:default/admins
