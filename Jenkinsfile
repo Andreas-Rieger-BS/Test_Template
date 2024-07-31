@@ -30,7 +30,7 @@ pipeline {
                     git config --global user.email $MAIL
                     git config --global user.name "Andreas Rieger"
                     cd ..
-                    [ ! -d /var/lib/jenkins/workspace/Test_Template && 
+                    [ ! -d /var/lib/jenkins/workspace/Test_Template ] && 
                     git clone https://github.com/Andreas-Rieger-BS/Test_Template.git
                     cd Test_Template
                     git pull
